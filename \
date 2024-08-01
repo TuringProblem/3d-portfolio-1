@@ -1,5 +1,5 @@
 import { motion, useAnimation } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 import { portfolio } from "../data";
@@ -27,7 +27,6 @@ const ProjectCard = ({ index, name, description, image, extraImages = [] }) => {
         (prevIndex) => (prevIndex + 1) % (extraImages.length + 1),
       );
     }, 4000);
-
     return () => clearInterval(interval);
   }, [extraImages.length]);
 
@@ -44,7 +43,7 @@ const ProjectCard = ({ index, name, description, image, extraImages = [] }) => {
       className={`w-full mt-[-2px] flex flex-col md:flex-row ${isEven ? "md:flex-row" : "md:flex-row-reverse"} gap-5`}
     >
       <div className="relative w-full md:w-3/5">
-        <motion.img
+        <img
           key={currentImage}
           src={currentImage}
           alt="project_image"

@@ -3,7 +3,7 @@ import { algorithms, devnotes, oscs } from "../assets";
 export const navLinks = [
   {
     id: "hero",
-    title: "Hero",
+    title: "Home",
   },
   {
     id: "portfolio",
@@ -21,43 +21,43 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "YouTube Content Creator",
-    company_name: "Self Employed",
-    date: "2016 - Present",
+    title: "IT-Help Desk",
+    company_name: "Massasoit CC",
+    date: "2024 - Present",
     details: [
-      "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
-      "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
-      "Produced high-quality educational and entertaining videos for clients including <span style='color: white;'>Intel, JetBrains, and MicroCenter</span>.",
+      "Maintained, uploaded, and contributed to daily operations<span style='color: white;'>.",
+      "Experienced in Team Dynamix ticking sytem, Microsoft Azure, Excell, Microsoft 365.<span style='color: white;'></span>.",
+      "Responsible for uploading documentation and removing/repairing hardware<span style='color: white;'></span>.",
     ],
   },
   {
     title: "Software Developer",
-    company_name: "Indie",
-    date: "2019 - 2023",
+    company_name: "Zenyte",
+    date: "2023 - Present",
     details: [
-      "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
-      "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
-      "<span style='color: white;'>Managed full project lifecycle</span> from concept to deployment in successful and timely project completions.",
+      "Develope for server with over 4,000 active community memebers<span style='color: white;'> </span>.",
+      "<span style='color: white;'>Written in Java, Kotlin, using Gradle, Maven, Json, Yaml, Docker, NGINX, git, Github </span>",
+      "<span style='color: white;'>Deobfiscated, and implemented (upgrading) current game</span>. Continously mainting and contributing to the ongoing success of the game.",
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Prime 3",
-    date: "2018 - 2019",
+    title: "Freelance",
+    company_name: "Sarin-RSPS",
+    date: "2023 - 2024",
     details: [
-      "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
-      "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
-      "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
+      "Built a fully customizable webiste <span style='color: white;'>hosting the server via Hostinger</span> and maintained the website.",
+      "Developed and maintained <span style='color: white;'><a href= 'https://sarinrsps.com/'>Sarin-RSPS</a></span>",
+      "<span style='color: white;'>Collaborated with a team</span> ",
     ],
   },
   {
-    title: "Computer Science",
-    company_name: "ODU",
-    date: "2015 - 2018",
+    title: "Massasoit Community College",
+    company_name: "2023 - 2024",
+    date: "GPA: 3.97",
     details: [
-      "Studied <span style='color: white;'>computer science</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>learning theory, computer architecture, software design, and software engineering</span>",
-      "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
+      "Studied <span style='color: white;'>computer science</span> at Massasoit Community College.",
+      "Extensive studies in Mathmatics, Computer theory, along with Data Structures and Algorithms.<span style='color: white;'></span>",
+      "Excelled in Calculus, Discrete Mathmatics, and Programming<span style='color: white;'>; worked f</span>.",
     ],
   },
 ];
