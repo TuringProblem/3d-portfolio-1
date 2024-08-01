@@ -55,8 +55,8 @@ const experiences = [
     company_name: "ODU",
     date: "2015 - 2018",
     details: [
-      "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
+      "Studied <span style='color: white;'>computer science</span> learning theory, computer architecture, and software engineering.",
+      "Worked and interned at <span style='color: white;'>learning theory, computer architecture, software design, and software engineering</span>",
       "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
     ],
   },
@@ -70,9 +70,8 @@ const portfolio = [
     image: oscs,
   },
   {
-    name: "Dev Notes",
-    description:
-      "A newsletter with over 6,000 readers made for software developers to keep up with this rapidly evolving industry, with a sister platform in progress.",
+    name: "Music",
+    description: "Accumulated over 500,000 stream's, reaching across ",
     image: devnotes,
   },
   {
