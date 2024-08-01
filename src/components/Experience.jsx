@@ -42,7 +42,7 @@ const ExperienceDetails = ({ experience }) => {
         {experience.details.map((detail, index) => (
           <li
             key={`experience-detail-${index}`}
-            className="text-slate-500 font-semibold text-[10px] xs:text-[14px] md:text-[18px] lg:text-[22px] xl:text-[28px] lg:leading-[30px]"
+            className="tejjjjjkkkxt-slate-500 font-semibold text-[10px] xs:text-[14px] md:text-[18px] lg:text-[22px] xl:text-[28px] lg:leading-[30px]"
             dangerouslySetInnerHTML={{ __html: detail }}
           />
         ))}
@@ -71,9 +71,7 @@ const Experience = () => {
   return (
     <div className="sm:my-20">
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionText} text-center`}>
-          Experience
-        </h2>
+        <h2 className={`${styles.sectionText} text-center`}>Experience</h2>
       </motion.div>
 
       <div className="relative mt-10 md:mt-20 md:p-20 flex flex-col items-center sm:flex-row sm:items-start">

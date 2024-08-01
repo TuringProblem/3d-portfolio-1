@@ -14,7 +14,12 @@ const Spaceman = ({ scale, position }) => {
   }, [actions]);
 
   return (
-    <mesh ref={spacemanRef} position={position} scale={scale} rotation={[0, 2.2, 0]}>
+    <mesh
+      ref={spacemanRef}
+      position={position}
+      scale={scale}
+      rotation={[0, 2.2, 0]}
+    >
       <primitive object={scene} />
     </mesh>
   );
@@ -65,15 +70,32 @@ const SpacemanCanvas = ({ scrollContainer }) => {
   }, [scrollContainer]);
 
   return (
-    <Canvas className={`w-full h-screen bg-transparent z-10`} camera={{ near: 0.1, far: 1000 }}>
+    <Canvas
+      className={`w-full h-screen bg-transparent z-10`}
+      camera={{ near: 0.1, far: 1000 }}
+    >
       <Suspense fallback={<CanvasLoader />}>
         <directionalLight position={[1, 1, 1]} intensity={2} />
         <ambientLight intensity={0.5} />
         <pointLight position={[10, 5, 10]} intensity={2} />
-        <spotLight position={[0, 50, 10]} angle={0.15} penumbra={1} intensity={2} />
-        <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1} />
+        <spotLight
+          position={[0, 50, 10]}
+          angle={0.15}
+          penumbra={1}
+          intensity={2}
+        />
+        <hemisphereLight
+          skyColor="#b1e1ff"
+          groundColor="#000000"
+          intensity={1}
+        />
 
-        <Spaceman rotationX={rotationX} rotationY={rotationY} scale={scale} position={position} />
+        <Spaceman
+          rotationX={rotationX}
+          rotationY={rotationY}
+          scale={scale}
+          position={position}
+        />
       </Suspense>
     </Canvas>
   );

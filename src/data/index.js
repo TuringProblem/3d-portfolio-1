@@ -1,8 +1,4 @@
-import {
-  algorithms,
-  devnotes,
-  oscs,
-} from "../assets";
+import { algorithms, devnotes, oscs } from "../assets";
 
 export const navLinks = [
   {
@@ -68,7 +64,7 @@ const experiences = [
 
 const portfolio = [
   {
-    name: "Open Source Computer Science Repo",
+    name: "Open Source",
     description:
       "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
     image: oscs,
@@ -88,4 +84,3 @@ const portfolio = [
 ];
 
 export { experiences, portfolio };
-
