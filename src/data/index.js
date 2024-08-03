@@ -1,4 +1,4 @@
-import { algorithms, devnotes, oscs } from "../assets";
+import { algorithms, devNotes, oscs, imageOne, imageTwo } from "../assets";
 
 export const navLinks = [
   {
@@ -68,11 +68,12 @@ const portfolio = [
     description:
       "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
     image: oscs,
+    extraImages: [imageOne, imageTwo],
   },
   {
     name: "Music",
     description: "Accumulated over 500,000 stream's, reaching across ",
-    image: devnotes,
+    image: devNotes,
   },
   {
     name: "Visually Understanding Algorithms",
