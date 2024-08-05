@@ -4,10 +4,22 @@ import menu from "./menu.svg";
 
 import algorithms from "./algorithms.png";
 import devNotes from "./spotify.jpeg";
-import oscs from "./rsbackground.jpeg";
-import imageOne from "./oscs.png";
-import imageTwo from "./rsphoto.jpeg";
-//import imageThree from "";
-//import imageFour from "";
 
-export { algorithms, close, devNotes, logo, menu, oscs, imageOne, imageTwo };
+import oscs from "./rsbackground.jpeg";
+import imageOne from "./ocsc.jpg";
+import imageTwo from "./rsphoto.jpeg";
+import imageThree from "./pvp.png";
+import imageFour from "./zulrah.png";
+
+export {
+  close,
+  logo,
+  menu,
+  algorithms,
+  devNotes,
+  oscs,
+  imageOne,
+  imageTwo,
+  imageThree,
+  imageFour,
+};
