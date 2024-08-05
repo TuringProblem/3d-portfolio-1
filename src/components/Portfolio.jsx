@@ -1,5 +1,5 @@
 import { motion, useAnimation } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 
 import { portfolio } from "../data";
@@ -14,10 +14,20 @@ const ProjectCard = ({ index, name, description, image, extraImages = [] }) => {
   });
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const audioRef = useRef(null);
 
   useEffect(() => {
     if (inView) {
       controls.start("show");
+      //TODO: -> need to finish the return statement that accounts for the audioRef
+      if (audioRef.current) {
+        audioRef.current.play();
+      } else {
+        if (audioRef.current) {
+          audioRef.current.pause();
+          audioRef.current.currenttime = 0;
+        }
+      }
     }
   }, [controls, inView]);
 
@@ -55,6 +65,8 @@ const ProjectCard = ({ index, name, description, image, extraImages = [] }) => {
           transition={{ duration: 1 }}
         />
       </div>
+      {/*TODO: Figure out a solution to audio && audioRef @see audioRef*/}
+      {audio && <audio ref={audioRef} src={audio} />}
 
       <div
         className={`w-full md:w-2/5 px-6 md:p-16 flex flex-col justify-center ${isEven ? "text-left md:text-left" : "text-left md:text-right"}`}

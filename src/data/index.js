@@ -52,7 +52,7 @@ const experiences = [
   {
     title: "Freelance",
     company_name: "Sarin-RSPS",
-    date: "2023 - 2024",
+
     details: [
       "Built a fully customizable webiste <span style='color: white;'>hosting the server via Hostinger</span> and maintained the website.",
       "Developed and maintained <span style='color: white;'><a href= 'https://sarinrsps.com/'>Sarin-RSPS</a></span>",
