@@ -43,10 +43,10 @@ const Navbar = () => {
     <nav className="w-full flex items-center bg-gradient-to-b from-black sm:bg-none p-8 sm:px-16 sm:py-10 fixed z-40 pointer-events-none">
       <div className="w-full flex justify-between items-start mx-auto">
         <Link
-          to="/"
+          to="https://github.com/TuringProblem"
           className="flex items-start"
           onClick={() => {
-            setActive("hero");
+            setActive("https://github.com/TuringProblem");
             window.scrollTo(0, 0);
           }}
         >

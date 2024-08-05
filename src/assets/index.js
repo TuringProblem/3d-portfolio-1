@@ -10,6 +10,7 @@ import imageOne from "./ocsc.jpg";
 import imageTwo from "./rsphoto.jpeg";
 import imageThree from "./pvp.png";
 import imageFour from "./zulrah.png";
+import imageFive from "./zenyte-home.png";
 
 export {
   close,
@@ -22,4 +23,5 @@ export {
   imageTwo,
   imageThree,
   imageFour,
+  imageFive,
 };

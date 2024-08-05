@@ -6,6 +6,7 @@ import {
   imageTwo,
   imageThree,
   imageFour,
+  imageFive,
 } from "../assets";
 
 export const navLinks = [
@@ -74,9 +75,9 @@ const portfolio = [
   {
     name: "Open Source",
     description:
-      "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
+      "Contribute, maintain, and update for multiple Github Repositories. Zenyte, is an online MMORPG with over 5,000 active community members via Discord, and over 100 concurrent players.",
     image: oscs,
-    extraImages: [imageOne, imageTwo, imageThree, imageFour],
+    extraImages: [imageOne, imageTwo, imageThree, imageFour, imageFive],
   },
   {
     name: "Music",
